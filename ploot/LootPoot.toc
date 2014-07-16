@@ -1,0 +1,7 @@
+## Interface: 50400
+## Title: Loot Poot
+## Notes: Addon to optimize loot configuration choices on WoD
+## Version: 1.0.0
+
+LootPoot.lua
+LootPoot.xml
