@@ -1,0 +1,43 @@
+test: paul mertens
+
+Data required to calculate values for personal and master loot
+
+
+number of players:	10
+
+
+players:
+	(each player)
+	spec:		holy paladin
+	slots:
+		(each slot)
+		slot type:	head
+		item:		crystalforge greathelm
+
+item list:
+	(each item)
+	item level:	213
+	slot:		head
+	allowed specs:	protection paladin, protection warrior, blood death knight
+
+
+boss:
+	name: iron juggernaut (flex)
+	item list:	siege of orgrimmar (flex) loot
+	master loot drop rates:
+		(each number of players)
+		number of players: 13
+		guaranteed items: 2
+		chance of extra item: 0.6
+	master loot table:
+		(for each item)
+		item: greathelm of glorious dreams
+		rate: 15% (must add up to 100 with others)
+	personal loot drop rates:
+		(each spec)
+		spec:		protection paladin
+		item chance:	25%
+		item loot table:
+			(each item)
+			item: greathelm of glorious dreams
+			rate: 33% (must add up to 100 with others)
