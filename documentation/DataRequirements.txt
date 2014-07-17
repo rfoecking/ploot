@@ -32,7 +32,7 @@ boss:
 	master loot table:
 		(for each item)
 		item: greathelm of glorious dreams
-		rate: 15% (must add up to 100 with others) (or... just have it be units, randomization is 1 / total)
+		rate: 15% (must add up to 100 with others)
 	personal loot drop rates:
 		(each spec)
 		spec:		protection paladin
@@ -40,4 +40,4 @@ boss:
 		item loot table:
 			(each item)
 			item: greathelm of glorious dreams
-			rate: 33% (must add up to 100 with others) (or... just have it be units, randomization is 1 / total)
+			rate: 33% (must add up to 100 with others)
